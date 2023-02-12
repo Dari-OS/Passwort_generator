@@ -1,5 +1,5 @@
 public class Symbol {
-    public static char symbolGetter(int a) {
+    public static char symbolGetter(final int a) {
         switch (a) {
             case 1 -> {
                 return 'A';
@@ -300,7 +300,7 @@ public class Symbol {
         }
     }
 
-    public static char symbolGetternoSpc(int a) {
+    public static char symbolGetternoSpc(final int a) {
         switch (a) {
             case 1 -> {
                 return 'A';
@@ -319,9 +319,6 @@ public class Symbol {
             }
             case 6 -> {
                 return 'c';
-            }
-            case 7 -> {
-                return 'D';
             }
             case 8 -> {
                 return 'd';

@@ -1,2 +1,4 @@
 # Project exclude paths
 /out/
+# Only User Specefic not for Git
+./idea
