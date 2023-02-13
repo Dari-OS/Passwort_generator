@@ -1,4 +1,3 @@
-# Passwort_generator
-My 2nd java project
+# Love My Daddy
 
 My Daddies Project
